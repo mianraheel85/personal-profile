@@ -1,0 +1,95 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #F4F2EE;
+    font-family: Poppins;
+}
+
+/* .container {
+    background-color:#FFFFFF ;
+    padding: 15px;
+} */
+
+.profile-name, .location {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+.city {
+    color: #07000099;
+}
+
+.heading  {
+    font-size: 16px;
+    
+   
+}
+span {
+    color: #0A66C2;
+    font-size: 14px;
+}
+
+.btn-1 {
+    font-size: 16px;
+    color: white;
+    background-color: #0A66C2;
+    border: none;
+    border-radius:40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn-2 {
+    font-size: 16px;
+    border-radius:40px;
+    padding: 5px;
+    color: #0A66C2;
+    border: 2px solid #0A66C2;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+h4{
+    font-weight: bold;
+}
+.columns {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    
+}
+
+/* repeat code */
+
+.column1 {
+    background-color:#DDE7F1;
+    border-radius: 16px;
+    padding: 5px 10px;
+    width: 100%;
+    
+}
+.column2 {
+    background-color:#F0F0F0;
+    border-radius: 16px;
+    padding: 5px 10px;
+    width: 100%;
+   
+    
+}
+
+section {
+
+    background-color:#FFFFFF;
+    border-radius: 16px;
+    margin: 30px;
+    padding: 20px;
+    width: 800px;   
+    height: auto; /* figma height 350px */
+}
+
+
