@@ -3,91 +3,125 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LinkedIn</title>
+    <title>Raheel LinkedIn Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
     </style>
   </head>
   <body>
-
-  
-    <!-- Header -->
-
-    
- 
     <header class="header mb-20">
-      <div class="container " >
-      <div class=" d-flex items-center content-center " >
-      <span id="logo" class="logo">Raheel</span>
-      <nav>
-        <ul class= "d-flex gap-16" >
-          <li class="first-li">Home</li>
-          <li>About</li>
-          <li>Experience</li>
-          <li>Services</li>
-          <li>Project</li>
-          <li>Education</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    
-    <div>
-        <img class= "ml-32" src="./assets/icons/Instagram-icon.svg" alt="instagram">
-        <img  class= "ml-32" src="./assets/icons/GitHub-icon.svg" alt="github">
-        <img class= "ml-32" src="./assets/icons/linkedin-icon.svg" alt="linkedin">
+      <div class="container">
+        <div class="d-flex items-center space-between">
+          <span id="logo" class="logo">Raheel</span>
+          <nav>
+            <ul class="d-flex gap-16">
+              <li class="first-li">Home</li>
+              <li>About</li>
+              <li>Experience</li>
+              <li>Services</li>
+              <li>Project</li>
+              <li>Education</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+
+          <div>
+            <img
+              class="ml-16"
+              src="./assets/icons/Instagram-icon.svg"
+              alt="instagram"
+            />
+            <img
+              class="ml-16"
+              src="./assets/icons/GitHub-icon.svg"
+              alt="github"
+            />
+            <img
+              class="ml-16"
+              src="./assets/icons/linkedin-icon.svg"
+              alt="linkedin"
+            />
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
     </header>
-    
-    
+
     <div class="container">
-      <div class="cover-image ">
-        <img class="cover" src="./assets/icons/cover-image.svg" alt="cover-image">
-      </div>
-   
-     
-      
       <div>
-       
-        <!-- left side column -->
-        <main class="section">
-          
-          
-          <!-- Main Heading -->
-          <div class="profile-name mb-4">
-            <h1 class="main-heading">Mian Raheel</h1>
-            <span>(He/Him)</span>
-            <img src="./assets/icons/verified-badge.svg" alt="verified badge" />
+        <!-- Main Section  -->
+        <main class="bg-white br-16">
+          <!-- Cover Image -->
+          <div class="cover-image p-0 br-16">
+            <img
+              class="cover"
+              src="./assets/icons/cover-image.svg"
+              alt="cover-image"
+            />
           </div>
 
-          <!-- Heading/Description -->
-          <p class="heading mb-4">
-            Helping beginners and non-tech professionals master AI & Web (Python
-            and JavaScript) and transition into the tech industry in 2025
-          </p>
-          <!-- Contact Info -->
+          <!-- 2 Columns -->
+          <div class="d-flex space-between px-32">
+            <!-- 1 Column Profile Info Starts -->
+            <div>
+              <!-- Main Heading -->
+              <div class="profile-name mb-4">
+                <h1 class="main-heading">Mian Raheel</h1>
+                <span>(He/Him)</span>
+                <img
+                  src="./assets/icons/verified-badge.svg"
+                  alt="verified badge"
+                />
+              </div>
 
-          <div class="location">
-            <p class="city">East Brunswick, New Jersey Usa.</p>
-            <span>Contact Info</span>
-          </div>
+              <!-- Heading/Description -->
+              <p class="heading mb-4 max-w-550">
+                Helping beginners and non-tech professionals master AI & Web
+                (Python and JavaScript) and transition into the tech industry in
+                2025
+              </p>
+              <!-- Contact Info -->
 
-          <div class="mb-8">
-            <span>13,518 followers -</span>
-            <span>500+ connections </span>
-          </div>
+              <div class="location">
+                <p class="city">East Brunswick, New Jersey Usa.</p>
+                <span>Contact Info</span>
+              </div>
 
-          <div class="mb-24">
-            <button class="button primary-button py-8 px-16">Open to</button>
-            <button class="button secondary-button py-8 px-16">
-              Add profile section
-            </button>
+              <div class="mb-8">
+                <span>13,518 followers -</span>
+                <span>500+ connections </span>
+              </div>
+
+              <div class="mb-24">
+                <button class="button primary-button py-8 px-16">
+                  Open to
+                </button>
+                <button class="button secondary-button py-8 px-16">
+                  Add profile section
+                </button>
+              </div>
+            </div>
+            <!-- 1 Column Profile Info Ends -->
+
+            <!-- 2 Column Company & Education Starts -->
+            <div>
+              <!-- company -->
+              <div>
+                <img class="" src="" alt="" width="" height="" />
+                <h4>Company Name</h4>
+              </div>
+
+              <!-- education -->
+              <div>
+                <img />
+                <h4>College Name</h4>
+              </div>
+            </div>
+            <!-- 2 Column Company & Education Ends -->
           </div>
 
           <!-- Columns -->
-          <div class="d-flex items-center gap-16">
+          <div class="d-flex items-center gap-16 px-32 pb-24">
             <div id="" class="bg-lightgray grow-1 p-16 br-16">
               <h4 class="column-title">Open to work</h4>
               <p>Software Engineering Trainee roles</p>
@@ -100,10 +134,9 @@
         </main>
 
         <!-- right side columns -->
-        
       </div>
 
-      <section  class="section">
+      <section id="about" class="section">
         <h2>About</h2>
         <p>
           Dynamic and innovative professional poised to excel in a Junior
@@ -112,13 +145,15 @@
           management and financial compliance.
         </p>
       </section>
-      <section class="section">
+
+      <section id="experience" class="section">
         <h2>Experience</h2>
         <h3>Operations Team Lead</h3>
         <p>Shipmonk . Fulltime</p>
         <p></p>
       </section>
-      <section class="section">
+
+      <section id="projects" class="section">
         <h2>Projects</h2>
         <p>
           Dynamic and innovative professional poised to excel in a Junior
@@ -127,7 +162,8 @@
           management and financial compliance.
         </p>
       </section>
-      <section class="section">
+
+      <section id="education" class="section">
         <h2>Education</h2>
         <p>
           Dynamic and innovative professional poised to excel in a Junior
@@ -137,6 +173,5 @@
         </p>
       </section>
     </div>
-  
   </body>
 </html>

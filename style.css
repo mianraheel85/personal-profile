@@ -9,30 +9,41 @@
 body {
   background-color: #f4f2ee;
   font-family: Poppins;
-  
 }
-
-
 
 .header {
-  background-color:#FFFFFF;
- 
+  background-color: #ffffff;
 }
- 
- .logo {
+
+.bg-red {
+  background-color: #e60023;
+}
+
+.bg-green {
+  background-color: #00a400;
+}
+
+.logo {
   font-size: 48px;
-  color:#0A66C2
- }
+  color: #0a66c2;
+}
 
- .first-li {
-  color: #0B65C2;
- }
+.active {
+  color: #0b65c2;
+}
 
-   .cover {
-  width:100%;
- 
- } 
-  
+.cover {
+  width: 100%;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.max-w-550 {
+  max-width: 550px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -117,9 +128,9 @@ span {
   align-items: center;
 }
 
-.content-center{
+.space-between {
   justify-content: space-between;
-  }
+}
 
 .gap-16 {
   gap: 16px;
@@ -134,7 +145,7 @@ span {
 }
 
 .bg-white {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .br-16 {
@@ -143,6 +154,15 @@ span {
 
 .p-16 {
   padding: 16px;
+}
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.pb-24 {
+  padding-bottom: 24px;
 }
 
 .mb-4 {
@@ -160,15 +180,15 @@ span {
 .mb-20 {
   margin-bottom: 20px;
 }
+
 .mb-24 {
   margin-bottom: 24px;
 }
 
-.ml-32 {
-  margin-left: 32px;
+.ml-16 {
+  margin-left: 16px;
 }
 
 .w-full {
   width: 100%;
 }
-
