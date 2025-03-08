@@ -9,8 +9,30 @@
 body {
   background-color: #f4f2ee;
   font-family: Poppins;
+  
 }
 
+
+
+.header {
+  background-color:#FFFFFF;
+ 
+}
+ 
+ .logo {
+  font-size: 48px;
+  color:#0A66C2
+ }
+
+ .first-li {
+  color: #0B65C2;
+ }
+
+   .cover {
+  width:100%;
+ 
+ } 
+  
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -38,6 +60,11 @@ body {
 .px-16 {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.px-48 {
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .profile-name,
@@ -90,6 +117,10 @@ span {
   align-items: center;
 }
 
+.content-center{
+  justify-content: space-between;
+  }
+
 .gap-16 {
   gap: 16px;
 }
@@ -126,10 +157,18 @@ span {
   margin-bottom: 16px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
 .mb-24 {
   margin-bottom: 24px;
+}
+
+.ml-32 {
+  margin-left: 32px;
 }
 
 .w-full {
   width: 100%;
 }
+
