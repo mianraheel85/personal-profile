@@ -36,6 +36,16 @@ body {
   width: 100%;
 }
 
+.font-20 {
+  font-size: 20px;
+  color: #000000;
+}
+
+.font-16 {
+  font-size: 16px;
+  color: #07000099;
+}
+
 .p-0 {
   padding: 0;
 }
@@ -68,6 +78,10 @@ body {
   padding-bottom: 8px;
 }
 
+.py-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 .px-16 {
   padding-left: 16px;
   padding-right: 16px;
@@ -116,6 +130,12 @@ span {
   border: 2px solid #0a66c2;
 }
 
+.secondary-button2 {
+  background-color: #ffffff;
+  color: #07000099;
+  border: 1px solid #07000099;
+}
+
 .column-title {
   font-weight: 600;
 }
@@ -134,6 +154,10 @@ span {
 
 .gap-16 {
   gap: 16px;
+}
+
+.gap-20 {
+  gap: 20px;
 }
 
 .grow-1 {
@@ -189,6 +213,19 @@ span {
   margin-left: 16px;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.profile-language {
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+}
+
+.line {
+  border: 1px solid #cccccc;
 }
