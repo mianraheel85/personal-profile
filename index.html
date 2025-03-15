@@ -8,6 +8,8 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
     </style>
+
+    <script src="script.js" defer></script>
   </head>
   <body>
     <!-- Header Starts -->
@@ -70,7 +72,9 @@
               <div>
                 <!-- Main Heading -->
                 <div class="profile-name mb-4">
-                  <h1 class="main-heading text-black">Mian Raheel</h1>
+                  <h1 id="main-heading" class="main-heading text-black">
+                    Mian Raheel
+                  </h1>
                   <span>(He/Him)</span>
                   <img
                     src="./assets/icons/verified-badge.svg"
@@ -151,11 +155,12 @@
 
         <section id="about" class="section">
           <h2 class="secondary-heading text-black">About</h2>
-          <p class="description">
+          <p id="aboutDescription" class="description">
             If you’re a professional with little to no tech background looking
             to break into web development or UUI/UX design, I’m here to guide
             you.
           </p>
+          <span id="aboutSeeMore">See more</span>
         </section>
 
         <section id="experience" class="section">
