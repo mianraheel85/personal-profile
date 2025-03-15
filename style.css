@@ -70,7 +70,22 @@ body {
 .main-heading {
   font-size: 24px;
   font-weight: 600;
-  color: #000;
+}
+
+.secondary-heading {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 36px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.text-black {
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .py-8 {
