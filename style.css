@@ -159,12 +159,18 @@ span {
   display: flex;
 }
 
+.d-flex-direction {
+  flex-direction: column;
+}
 .items-center {
   align-items: center;
 }
 
 .space-between {
   justify-content: space-between;
+}
+.flex-end {
+  align-self: flex-end;
 }
 
 .gap-16 {
@@ -176,7 +182,7 @@ span {
 }
 
 .grow-1 {
-  flex: 1;
+  flex-grow: 1;
 }
 
 .bg-lightgray {
@@ -243,4 +249,10 @@ span {
 
 .line {
   border: 1px solid #cccccc;
+}
+
+@media screen and (max-width: 480px) {
+  .ad-column {
+    display: none;
+  }
 }
