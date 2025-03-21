@@ -1,5 +1,6 @@
 // About description
 const aboutDescription = document.querySelector("#aboutDescription");
+const contactButton = document.querySelector("#contactButton");
 
 const fullDescription = aboutDescription.textContent;
 
@@ -20,4 +21,9 @@ aboutSeeMore.addEventListener("click", () => {
     aboutDescription.textContent = slicedAboutDescription;
     aboutSeeMore.textContent = "See more";
   }
+});
+
+contactButton.addEventListener("click", () => {
+  contactButton.style.display = "block";
+  console.log("Contact Button Clicked!");
 });
