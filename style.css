@@ -251,6 +251,29 @@ span {
   border: 1px solid #cccccc;
 }
 
+.contact-button {
+  color: #0a66c2;
+  background-color: transparent;
+
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+
+  cursor: pointer;
+}
+
+.contact-popup {
+  position: absolute;
+
+  display: none;
+
+  width: 100%;
+  max-width: 400px;
+  min-height: 20rem;
+
+  background-color: #0b65c2;
+}
+
 @media screen and (max-width: 480px) {
   .ad-column {
     display: none;
